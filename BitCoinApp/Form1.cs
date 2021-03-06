@@ -37,7 +37,7 @@ namespace BitCoinApp
                 resultLabel.Visible = true;
                 resultTextBox.Visible = true;
                 BitCoinRates bitcoin = GetRates();
-                float result = Int32.Parse(amountOfCoinBox.Text) * bitcoin.bpi.EUR.rate_float;
+                float result = Int32.Parse(amountOfCoinBox.Text) * bitcoin.bpi.USD.rate_float;
                 resultTextBox.Text = $"{result.ToString()}{bitcoin.bpi.USD}";
 
 
