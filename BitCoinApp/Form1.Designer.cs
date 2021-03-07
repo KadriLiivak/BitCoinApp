@@ -43,19 +43,17 @@
             this.currencyCombo.Items.AddRange(new object[] {
             "EUR",
             "USD"});
-            this.currencyCombo.Location = new System.Drawing.Point(25, 45);
-            this.currencyCombo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.currencyCombo.Location = new System.Drawing.Point(38, 69);
             this.currencyCombo.Name = "currencyCombo";
-            this.currencyCombo.Size = new System.Drawing.Size(101, 21);
+            this.currencyCombo.Size = new System.Drawing.Size(150, 28);
             this.currencyCombo.TabIndex = 0;
             this.currencyCombo.Text = "Select Currency";
             // 
             // btnGetRates
             // 
-            this.btnGetRates.Location = new System.Drawing.Point(164, 46);
-            this.btnGetRates.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnGetRates.Location = new System.Drawing.Point(246, 71);
             this.btnGetRates.Name = "btnGetRates";
-            this.btnGetRates.Size = new System.Drawing.Size(71, 20);
+            this.btnGetRates.Size = new System.Drawing.Size(106, 31);
             this.btnGetRates.TabIndex = 1;
             this.btnGetRates.Text = "Get Rates";
             this.btnGetRates.UseVisualStyleBackColor = true;
@@ -63,10 +61,9 @@
             // 
             // amountOfCoinBox
             // 
-            this.amountOfCoinBox.Location = new System.Drawing.Point(19, 125);
-            this.amountOfCoinBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.amountOfCoinBox.Location = new System.Drawing.Point(28, 192);
             this.amountOfCoinBox.Name = "amountOfCoinBox";
-            this.amountOfCoinBox.Size = new System.Drawing.Size(102, 20);
+            this.amountOfCoinBox.Size = new System.Drawing.Size(151, 26);
             this.amountOfCoinBox.TabIndex = 2;
             // 
             // label1
@@ -74,12 +71,11 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(22, 110);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(33, 169);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(96, 13);
+            this.label1.Size = new System.Drawing.Size(146, 20);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Amonut of BitCoins";
+            this.label1.Text = "Amount of BitCoins";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // resultLabel
@@ -87,36 +83,33 @@
             this.resultLabel.AutoSize = true;
             this.resultLabel.BackColor = System.Drawing.Color.Transparent;
             this.resultLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.resultLabel.Location = new System.Drawing.Point(22, 171);
-            this.resultLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.resultLabel.Location = new System.Drawing.Point(33, 263);
             this.resultLabel.Name = "resultLabel";
-            this.resultLabel.Size = new System.Drawing.Size(37, 13);
+            this.resultLabel.Size = new System.Drawing.Size(55, 20);
             this.resultLabel.TabIndex = 4;
             this.resultLabel.Text = "Result";
             this.resultLabel.Visible = false;
             // 
             // resultTextBox
             // 
-            this.resultTextBox.Location = new System.Drawing.Point(25, 187);
-            this.resultTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.resultTextBox.Location = new System.Drawing.Point(38, 288);
             this.resultTextBox.Name = "resultTextBox";
-            this.resultTextBox.Size = new System.Drawing.Size(169, 20);
+            this.resultTextBox.Size = new System.Drawing.Size(252, 26);
             this.resultTextBox.TabIndex = 5;
             this.resultTextBox.Visible = false;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(533, 292);
+            this.ClientSize = new System.Drawing.Size(800, 449);
             this.Controls.Add(this.resultTextBox);
             this.Controls.Add(this.resultLabel);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.amountOfCoinBox);
             this.Controls.Add(this.btnGetRates);
             this.Controls.Add(this.currencyCombo);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "BitCoin calculator";
             this.ResumeLayout(false);
